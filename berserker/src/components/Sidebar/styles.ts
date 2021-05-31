@@ -52,6 +52,14 @@ export const Search = styled.div`
     height: 40px;
     border-radius: 20px;
     padding: 0 10px;
+
+    input {
+      flex: 1;
+      border: 0;
+      outline: 0;
+      background: transparent;
+      margin-left: 10px;
+    }
   }
 `;
 export const Chatlist = styled.div``;

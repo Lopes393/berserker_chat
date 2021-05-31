@@ -2,9 +2,13 @@ import DonutLargeIcon from "@material-ui/icons/DonutLarge";
 import ChatIcon from "@material-ui/icons/Chat";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import SearchIcon from "@material-ui/icons/Search";
+import { useState, useEffect } from "react";
+import { ChatListItem } from "../ChatListItem/ChatListItem";
 import { Container, Header, Search, Chatlist } from "./styles";
 
 export function Sidebar() {
+  const [chatList, setChatList] = useState([{}, {}, {}, {}]);
+
   return (
     <Container>
       <Header>
@@ -33,7 +37,11 @@ export function Sidebar() {
           />
         </div>
       </Search>
-      <Chatlist></Chatlist>
+      <Chatlist>
+        {chatList.map((item, key) => (
+          <ChatListItem key={key} />
+        ))}
+      </Chatlist>
     </Container>
   );
 }
