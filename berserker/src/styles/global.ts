@@ -4,7 +4,9 @@ export const GlobalStyle = createGlobalStyle`
     :root{
         --background: #d2dbdc;
         --background-content: #EDEDED;
+        --background-search: #f6f6f6;
         --border: #DDD;
+        --border-search: #EEE;
         --shape: #FFFFFF;
     }
     *{

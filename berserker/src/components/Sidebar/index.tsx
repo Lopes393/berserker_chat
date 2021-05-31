@@ -1,6 +1,7 @@
 import DonutLargeIcon from "@material-ui/icons/DonutLarge";
 import ChatIcon from "@material-ui/icons/Chat";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
+import SearchIcon from "@material-ui/icons/Search";
 import { Container, Header, Search, Chatlist } from "./styles";
 
 export function Sidebar() {
@@ -12,10 +13,26 @@ export function Sidebar() {
           alt=""
         />
         <div className="actions">
-          <div className="actions-btn"></div>
+          <div className="actions-btn">
+            <DonutLargeIcon />
+          </div>
+          <div className="actions-btn">
+            <ChatIcon />
+          </div>
+          <div className="actions-btn">
+            <MoreVertIcon />
+          </div>
         </div>
       </Header>
-      <Search></Search>
+      <Search>
+        <div className="search">
+          <SearchIcon fontSize="small" />
+          <input
+            type="search"
+            placeholder="Procurar ou começar uma nova conversa"
+          />
+        </div>
+      </Search>
       <Chatlist></Chatlist>
     </Container>
   );

@@ -25,9 +25,33 @@ export const Header = styled.div`
     cursor: pointer;
   }
 
-  div {
+  .actions {
     display: flex;
+
+    .actions-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      cursor: pointer;
+      width: 40px;
+      border-radius: 20px;
+    }
   }
 `;
-export const Search = styled.div``;
+export const Search = styled.div`
+  background: var(--background-search);
+  border-bottom: 1px solid var(--border-search);
+  padding: 5px 15px;
+
+  .search {
+    display: flex;
+    align-items: center;
+
+    background: var(--shape);
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 10px;
+  }
+`;
 export const Chatlist = styled.div``;
