@@ -62,4 +62,8 @@ export const Search = styled.div`
     }
   }
 `;
-export const Chatlist = styled.div``;
+export const Chatlist = styled.div`
+  flex: 1;
+  background: var(--shape);
+  overflow-y: auto;
+`;

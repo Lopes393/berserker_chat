@@ -18,13 +18,13 @@ export function Sidebar() {
         />
         <div className="actions">
           <div className="actions-btn">
-            <DonutLargeIcon />
+            <DonutLargeIcon style={{ color: "#919191" }} />
           </div>
           <div className="actions-btn">
-            <ChatIcon />
+            <ChatIcon style={{ color: "#919191" }} />
           </div>
           <div className="actions-btn">
-            <MoreVertIcon />
+            <MoreVertIcon style={{ color: "#919191" }} />
           </div>
         </div>
       </Header>
