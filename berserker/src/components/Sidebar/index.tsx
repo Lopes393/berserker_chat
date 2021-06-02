@@ -7,7 +7,24 @@ import { ChatListItem } from "../ChatListItem/ChatListItem";
 import { Container, Header, Search, Chatlist } from "./styles";
 
 export function Sidebar() {
-  const [chatList, setChatList] = useState([{}, {}, {}, {}]);
+  const [chatList, setChatList] = useState([
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+  ]);
 
   return (
     <Container>

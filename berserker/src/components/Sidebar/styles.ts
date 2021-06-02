@@ -66,4 +66,12 @@ export const Chatlist = styled.div`
   flex: 1;
   background: var(--shape);
   overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+  }
 `;

@@ -1,10 +1,11 @@
 import { Container, Content, Name, Date, LastMsg } from "./styles";
+import userImg from "../../assets/img/user.png";
 
 export function ChatListItem() {
   return (
     <Container>
       <img
-        src="https://www.monteirolobato.edu.br/public/assets/admin/images/avatars/avatar7_big@2x.png"
+        src="https://kabirnayeem99.github.io/assets/img/profile.png"
         alt=""
       />
       <Content>
