@@ -15,9 +15,7 @@ export function ChatListItem() {
         </div>
         <div>
           <LastMsg>
-            <p>
-              a live vai ficar por quanto tempo no ar depois de terminada? ?
-            </p>
+            <p>Thyerre é gay, Jp é gay, e não param de dar ?</p>
           </LastMsg>
         </div>
       </Content>
