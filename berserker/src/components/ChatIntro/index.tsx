@@ -1,6 +1,6 @@
 import { Container } from "./styles";
 
-export function Content() {
+export function ChatIntro() {
   return (
     <Container>
       <img
@@ -9,7 +9,7 @@ export function Content() {
       />
       <h1>Mantenha seu celular conectado</h1>
       <h2>
-        O WhatsApp conecta ao seu celular para sincronizar suas mensagens.
+        O Berserker conecta ao seu Whatsapp para sincronizar suas mensagens.
         <br />
         Para reduzir o uso de dados, conecte seu celular a uma rede Wi-Fi.
       </h2>

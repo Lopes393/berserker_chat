@@ -25,5 +25,6 @@ export const Container = styled.div`
     line-height: 20px;
     margin-top: 18px;
     font: inherit;
+    text-align: center;
   }
 `;
