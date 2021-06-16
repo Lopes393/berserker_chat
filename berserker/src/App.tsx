@@ -11,7 +11,7 @@ export function App() {
   return (
     <Container>
       <Sidebar />
-      {activeChat ? <ChatWindow /> : <ChatIntro />}
+      {!activeChat ? <ChatWindow /> : <ChatIntro />}
       <GlobalStyle />
     </Container>
   );

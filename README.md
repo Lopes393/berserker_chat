@@ -1,2 +1,4 @@
-# berserker_register
-Personal registration system
+# Berserker Chat
+<div>
+    <img src=".github/berserkerintro.png" width="100%">
+</div>

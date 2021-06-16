@@ -15,7 +15,7 @@ export function ChatListItem() {
         </div>
         <div>
           <LastMsg>
-            <p>Thyerre é gay, Jp é gay, e não param de dar ?</p>
+            <p>Texto para teste de tamanho da frase para abreveatura</p>
           </LastMsg>
         </div>
       </Content>
