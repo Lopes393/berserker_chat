@@ -10,8 +10,8 @@ export function App() {
 
   return (
     <Container>
-      <Sidebar />
-      {!activeChat ? <ChatWindow /> : <ChatIntro />}
+      <Sidebar setActiveChat={setActiveChat} />
+      {activeChat ? <ChatWindow /> : <ChatIntro />}
       <GlobalStyle />
     </Container>
   );

@@ -5,8 +5,9 @@ import SearchIcon from "@material-ui/icons/Search";
 import { useState } from "react";
 import { ChatListItem } from "../ChatListItem/ChatListItem";
 import { Container, Header, Search, Chatlist } from "./styles";
+import { propsSidebar } from "./interfaces";
 
-export function Sidebar() {
+export function Sidebar({ setActiveChat }: propsSidebar) {
   const [chatList, setChatList] = useState([
     {},
     {},
@@ -56,7 +57,10 @@ export function Sidebar() {
       </Search>
       <Chatlist>
         {chatList.map((item, key) => (
-          <ChatListItem key={key} />
+          <ChatListItem
+            key={key}
+            onClick={() => setActiveChat(chatList[key])}
+          />
         ))}
       </Chatlist>
     </Container>
